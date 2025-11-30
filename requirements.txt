@@ -1,0 +1,11 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# LLM Integration (Includes the libraries that caused the httpx conflict)
+google-genai 
+
+# HTTP Client (to communicate back with the main backend for data)
+httpx
